@@ -1,51 +1,100 @@
-# Talent_Bank_Demo_Frontend
-Talent Bank Demo – Frontend Setup Guide (For Beginners)
-This document helps you set up and run the Talent Bank Frontend Project built using Vite, React, TypeScript, and Tailwind CSS.
 
-🔧 Tech Stack Used:
-- React – Frontend library for building UI
-- TypeScript – Typed JavaScript
-- Vite – Frontend build tool and dev server
-- Tailwind CSS – Utility-first CSS framework
-- 
-📁 Folder Structure:
+# Talent Bank Demo – Frontend
+
+This is the frontend project for **Talent Bank Demo**, built using:
+
+- ⚡ [Vite](https://vitejs.dev/) – blazing-fast dev server & build tool
+- ⚛️ React – for building user interfaces
+- 🟦 TypeScript – type-safe JavaScript
+- 🎨 Tailwind CSS – utility-first CSS framework
+
+---
+
+## 📁 Folder Structure
+
+```
 Talent_Bank_Demo_Frontend/
-├── public/                → Static assets (images, icons, etc.)
-├── src/                   → Main source code (React components)
-│   ├── components/        → UI components
-│   ├── pages/             → Page-level components
-│   └── main.tsx           → Entry point file
-├── index.html             → Main HTML file
-├── package.json           → Project details and dependencies
-├── tailwind.config.js     → Tailwind settings
-├── tsconfig.json          → TypeScript settings
-└── vite.config.ts         → Vite configuration
+├── public/                 # Static assets
+├── src/                    # All React source files
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Page-level components
+│   └── main.tsx           # Entry point of the app
+├── index.html              # App HTML entry point
+├── package.json            # Project metadata & scripts
+├── tailwind.config.js      # Tailwind customization
+├── tsconfig.json           # TypeScript config
+└── vite.config.ts          # Vite configuration
+```
 
-✅ Prerequisites:
-• Node.js version 16 or higher must be installed
-👉 Download from: https://nodejs.org
+---
 
-To check your version:
+## ✅ Prerequisites
+
+- Node.js **version 16 or higher**
+- npm (comes with Node.js)
+
+Check Node.js version:
+```bash
 node -v
+```
 
-🚀 How to Run the Project
-Step 1: Extract the project ZIP and place the folder somewhere safe (Desktop or D Drive)
-Step 2: Open Terminal or VS Code inside the project folder
+Download: https://nodejs.org
 
-Example:
-cd Talent_Bank_Demo_Frontend
+---
 
-Step 3: Install all required packages
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+
+```bash
 npm install
+```
 
-Step 4: Start the development server
+### 2. Start Development Server
+
+```bash
 npm run dev
-Then open http://localhost:5173/ in your browser.
+```
 
-🧪 How to Build the Project (for deployment)
-Run the following command:
+Visit: http://localhost:5173
+
+---
+
+## 📦 Build for Production
+
+```bash
 npm run build
-The final build output will be in the dist folder.
+```
 
-📞 Need Help?
-If you're stuck, feel free to ask the team or share screenshots of your terminal.
+Final files will be in the `dist/` folder.
+
+---
+
+## 🧪 Linting
+
+```bash
+npm run lint
+```
+
+---
+
+## ⚠️ Common Errors & Fixes
+
+**❌ Error: `vite` is not recognized**  
+✅ Run `npm install` or use `npx vite`
+
+**❌ SyntaxError: Unexpected token '??='**  
+✅ Update Node.js to v16 or higher
+
+---
+
+## 🤝 Contributing
+
+Fork the repo and raise a pull request. Suggestions welcome!
+
+---
+
+## 📧 Contact
+
+If you need help, feel free to reach out to the team or open an issue.
+
