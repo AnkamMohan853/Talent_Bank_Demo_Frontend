@@ -54,7 +54,7 @@ const Login: React.FC = () => {
         setStep('success');
         setTimeout(() => {
           login(mobileNumber);
-          navigate('/home');
+          navigate('/Vendor');
         }, 1500);
       }, 2000);
     }
